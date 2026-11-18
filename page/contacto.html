@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/imagenes/hospital.png">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h2 style="text-align: center; color: #19707b; font-size: 67px;">Hospital Fernández</h2>
+        <p style="text-align: center; color: rgb(30, 24, 196);">El mejor hospital del condado</p>
+    </header>
+    <hr>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="">Galeria</a>
+        <a href="">Acerca</a>
+        <a href="">Contacto</a>
+    </nav>
+    <hr>
+<body>
+    <nav>
+
+    </nav>
+    <hr>
+     <!--Formulario de registro-->
+    <form action="#">
+            <label for="#">Desea una cita</label>
+            <br>
+            <label for="si">SI
+            <input type="radio" id="si" name="siyno">
+            </label>
+            <label for="no">NO
+            <input type="radio" id="no" name="siyno">
+            <br>
+            <label for="nombre">Ingrese su nombre de titular</label>
+            <br>
+            <input type="text" id="nombre" placeholder="nombre" size="10" required>
+            <br><br>
+            <label for="paciente">Ingrese el nombre del paciente</label>
+            <br>
+            <input type="text" id="npaciente" placeholder="Nombre del Paciente" required>
+            <br><br>
+             <label for="email">Ingrese su email</label>
+            <br>
+            <input type="email" id="email" placeholder="email" required>
+            <br><br>
+                       <label for="nphone">Ingrese su numero telefonico</label>
+            <br>
+            <input type="number" id="nphone" placeholder="Numero" required>
+            <br><br>
+             <label for="cedula">Ingrese su numero de cedula</label>
+            <br>
+            <input type="number" id="cedula" placeholder="Cedula" required>
+            <br><br>
+             <label for="passw">Ingrese su contraseña para su plataforma de citas</label>
+            <br>
+            <input type="password" id="passw" placeholder="contraseña" required>
+            <br><br>
+             <label for="fecha_de_nacimiento">Ingrese su fecha de nacimiento</label>
+            <br>
+            <input type="date" id="fecha_de_nacimiento" required>
+            <br><br>
+            <label for="cargas">Ingrese su/s cargas familiares</label>
+            <br>
+            <input type="number" id="cargas" placeholder="ingrese" required>
+            <br><br>
+            <label for="#">Género</label>
+            <br>
+            <label for="Femenino">Femenino
+            <input type="radio" id="Femenino" name="genero">
+            </label>
+            <label for="Masculino">Masculino
+            <input type="radio" id="Masculino" name="genero">
+            </label>
+            <label for="Otros">Otros
+            <input type="radio" id="Otros" name="genero">
+            </label>
+            <br><br>
+            <label for="ciudad">Ingrese su ciudad</label>
+            <br>
+             <select name="ciudad" id="ciudad">
+                <option value="opcion" disabled selected>Seleccionar opcion</option>
+                <option value="quito">Quito</option>
+                <option value="cuenca">Cuenca</option>
+                <option value="latacunga">Latacunga</option>
+                <option value="ibarra">Ibarra</option>
+             </select>
+            <br><br>
+            <label for="foto">Seleccione su foto</label>
+            <br>
+            <input type="file" id="foto">
+            <br><br>
+            <label for="comentarios">Deje sus comentarios</label>
+            <br>
+            <textarea name="comentarios" id="comentarios" cols="20" rows="5" 
+            placeholder="Escriba..."> </textarea>
+            <br><br>
+            <input type="submit" value="Enviar Formulario">
+            <button type="reset">Borrar</button>
+             <label for="met"></label>
+              <label>Si llegaste a este punto completaste todo:</label>
+  <progress value="100" max="100">70%</progress>
+  <label>Suma de puntos:</label>
+  <input type="number" id="nota1" value="4"> +
+  <input type="number" id="nota2" value="5"> =
+  <output name="total" for="nota1 nota2">9</output>
+    </form>
+</body>
+</html>
